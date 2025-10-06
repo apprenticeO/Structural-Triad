@@ -45,4 +45,4 @@ This repository is a private, shareable subset of the ESSE workspace prepared fo
 - Email: ovdttr@gmail.com
 
 ## License
-- All rights reserved. See `LICENSE` for terms. 
+- All rights reserved. See `LICENSE` for terms. # Structural-Triad
