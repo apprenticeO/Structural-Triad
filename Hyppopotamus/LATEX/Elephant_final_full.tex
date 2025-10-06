@@ -22,14 +22,14 @@
 
 \maketitle
 \begin{abstract}
-We identify a primitive structural condition in quantum theory: energy fluctuations, von Neumann entropy, and quantum mutual information constitute an inseparable triad that cannot vanish on average in any physically realizable, locally coupled quantum system. This triad expresses the minimal structural integrity required for a quantum state to persist, evolve, and mediate phenomena. From locality and dynamical non-stationarity we derive two complementary inequalities—a Hamiltonian-capped and a speed-based form—that establish explicit quantitative thresholds for systemic viability. These thresholds reveal how fluctuations, entropy, and correlations must coexist and compensate one another to sustain quantum activity. The results apply to pure and mixed states, extend naturally to open systems via entropy production, and generalize to algebraic QFT. Beyond theory, the framework provides operational criteria for assessing structural viability in quantum technologies, from qubit certification to memory stability and error-correction design. While subsystem quantities are used for analytical resolution, the theory is fundamentally systemic: it diagnoses the coherence and persistence of the total quantum state rather than the autonomy of its parts. We further conjecture that analogous structural constraints may extend to globally topological quantum systems, whose persistent entropic and correlational features may reflect a generalized form of systemic viability.
+We identify a primitive structural condition in quantum theory: energy fluctuations, von Neumann entropy, and quantum mutual information constitute an inseparable triad that cannot vanish on average within any physically realizable quantum system exhibiting local coupling. This triad expresses the minimal structural integrity required for a quantum state to persist, evolve, and mediate phenomena. From the assumptions of locality and dynamical non-stationarity we derive two complementary inequalities—a Hamiltonian-capped and a speed-based form—that establish explicit quantitative thresholds for systemic viability. These thresholds reveal how fluctuations, entropy, and correlations must coexist and compensate one another to sustain quantum activity. The results apply to pure and mixed states, extend naturally to open systems via entropy production, and generalize to algebraic QFT. Beyond theory, the framework provides operational criteria for assessing structural viability in quantum technologies, from qubit certification to memory stability and error-correction design. While subsystem quantities are used for analytical resolution, the theory is fundamentally systemic: it diagnoses the coherence and persistence of the total quantum state rather than the autonomy of its parts. We further conjecture that analogous structural constraints may extend to globally topological quantum systems, whose persistent entropic and correlational structure may reflect a generalized form of systemic viability.
 \end{abstract}
 
 
 
 \section{Introduction}
 
-Quantum theory imposes fundamental constraints on what qualifies as a physically viable subsystem.
+Quantum theory imposes fundamental constraints on what qualifies as a physically viable subsystem—understood here as a resolvable region within an interacting system.
 From the uncertainty principle to modern information-theoretic bounds\cite{NielsenChuang2010,CsiszarKorner2011},
 it has long been clear that fluctuations, entropy, and correlations cannot all vanish simultaneously
 without undermining the internal consistency of the theory. Each captures a distinct aspect of quantum structure:
@@ -47,11 +47,11 @@ generalized speed limits connect quantum Fisher information to entropy productio
 fluctuation--speed relations bound entropy growth in open systems\cite{Hamazaki2024,ShiraishiSaito2018},
 and entanglement persists under noise through correlation–entropy trade-offs\cite{Benedetti2012,BenattiFloreanini2005}.
 Yet none of these results capture the essential \emph{three-way structural interdependence}
-that we show to be indispensable for subsystem viability.
+that we show to be indispensable for system viability.
 
-Our central claim is that fluctuation, entropy, and correlation form a \emph{quantum structural triad}:
-in any locally coupled, physically realizable \textbf{quantum system},
-their product cannot vanish when averaged over time and across partitions.
+Our central claim is that fluctuation, entropy, and correlation form a \emph{quantum structural triad}
+that in any physically realizable quantum system exhibiting local coupling, their product cannot vanish.
+
 Pointwise vanishing may occur, but systemic persistence is mandatory.
 This defines a minimal structural threshold below which a subsystem becomes
 \emph{quantum-structurally inert}\cite{DeffnerCampbell2017,NishiyamaHasegawa2025}:
@@ -598,32 +598,7 @@ Even with dissipation, subsystems cannot persist in a state of structural irrele
 except at true fixed points. Any nontrivial open-system evolution enforces persistent
 nonvanishing of fluctuation, entropy production, and correlations, maintaining
 quantum structural integrity in the presence of noise and dissipation.
-
-
-\section{Conclusions}
-
-We have identified a primitive structural condition in quantum theory: the inseparable triad of fluctuations, entropy, and correlations defines the minimal requirement for subsystem viability. No physically realizable, locally coupled quantum system can maintain dynamical relevance while any leg of the triad vanishes on average. The triad thus constitutes the fundamental expression of quantum structural integrity—the capacity to persist, evolve, and mediate phenomena.
-
-From locality and dynamical non-stationarity we derived two complementary quantitative thresholds:
-\begin{itemize}
-    \item a \textbf{Hamiltonian-capped} inequality, governed by minimal local energy scales and subsystem dimensions,
-    \item a \textbf{speed-based} inequality, governed by Bures evolution rates and entropic/correlation floors.
-\end{itemize}
-Together, these bounds reveal that fluctuations, entropy, and correlations are structurally interdependent. Any persistent deficit in one component must be balanced by the others, while the simultaneous vanishing of all three marks structural inertness. This inseparability defines the threshold between inert mathematical possibility and physically participatory reality.
-
-Although the framework is expressed through subsystem observables—reduced fluctuations, local entropy, and mutual information—it is not reductionist. Subsystems function only as analytical constructs introduced to resolve structure within the total system. The triad theory is fundamentally systemic: it characterizes the integrity of the full quantum state, employing partitions as diagnostic tools rather than ontological divisions.
-
-Subsystems falling below the derived thresholds are structurally inert: incapable of storing information, mediating interactions, or sustaining distinguishable evolution. In contrast, persistent triadic activity guarantees the minimal conditions for quantum persistence. This exclusion principle applies to pure and mixed states, extends naturally to Lindbladian open systems through entropy production, and generalizes to algebraic QFT.
-
-Beyond foundational implications, the triad provides first-principles benchmarks for quantum technologies—criteria for qubit viability, memory stability, gate certification, and error-correction prioritization. It redefines quantum engineering in terms of structural necessity rather than empirical performance.
-
-At a deeper level, the persistence of triadic activity suggests an informational origin of spacetime geometry. In modular-Hamiltonian and holographic formulations, the same structural relations reproduce the linearized Einstein equations and encode effective gravitational couplings. Gravity thereby emerges not as an additional force, but as the geometric manifestation of sustained quantum distinguishability and correlation—the curvature of persistent informational structure.
-
-Future work will extend the computational annexes, formalize experimental witness protocols, and explore the link between subsystem structure, modular dynamics, and emergent geometry. Through this lens, quantum viability is not an operational convention but a universal principle of physical structure.
-
-\paragraph{Conjectural Extension.}
-While the present results rest on locality and dynamical evolution, we conjecture that analogous triadic thresholds may govern globally topological quantum systems, such as the toric code on a torus. Even without conventional dynamics, such systems exhibit persistent entropy, entanglement, and fluctuation under logical observables, suggesting that a generalized form of the structural triad may still signal systemic viability beyond local frameworks.
-\section{Conjecture: Topological Structural Triad (Toric Code Case)}
+\section{Conjecture: Topological Structural Triad }
 \label{sec:topo-triad}
 
 The structural triad, as derived above, presupposes locality and dynamical non-stationarity (H1–H3). 
@@ -715,77 +690,33 @@ To formalize this conjecture, subsequent work will:
 
 This conjectural extension positions the triad as a universal descriptor of quantum structural 
 persistence, valid across both local and topological phases.
-\section{Open Discussion: Qualitative Outlook}
 
-The structural triad developed in this work—linking fluctuations, entropy, and correlations—
-suggests a deeper informational origin of spacetime geometry.
-The persistence of nonzero triadic activity implies that no physically realizable subsystem can remain
-simultaneously fluctuationless, pure, and decorrelated.
-When examined within conformal field theories admitting an Einstein gravity dual,
-this persistence principle yields a correspondence between
-\emph{quantum structural integrity} and \emph{geometric curvature}.
 
-This correspondence follows from modular–Hamiltonian thermodynamics and information geometry.
-The modular first law of Casini, Huerta, and Myers\cite{CasiniHuertaMyers2011}
-relates variations of entanglement entropy to local energy density,
-while the second variation of relative entropy defines the Bures
-(symmetric–logarithmic–derivative) quantum Fisher metric
-\cite{BraunsteinCaves1994,Petz1996,Hayashi2006},
-which quantifies curvature in the space of quantum states.
-Together these relations imply that informational and physical curvature obey parallel structural constraints,
-so persistent triadic activity guarantees a nondegenerate informational metric and, by extension,
-a nontrivial spacetime geometry.
 
-In this view, gravitational coupling and cosmological scaling emerge from the triad’s intrinsic dynamics
-rather than from fundamental inputs.
-Gravity thus appears not as an additional force but as a manifestation of persistent quantum
-distinguishability and correlation.
-A detailed mathematical development of this correspondence—including the derivation of effective
-Einstein–Hilbert dynamics and the renormalization-group calibration of the gravitational constants—
-is presented in the companion work\cite{FaulknerLewkowyczMaldacena2013,Jacobson1995,BrownHenneaux1986}.
-\begin{center}
-\fbox{%
-\begin{minipage}{0.93\linewidth}
-\small
-\textbf{Illustrative Correspondence: From Quantum Structure to Curvature.} \\
-\medskip
-Formally, the second variation of relative entropy,
-\[
-\delta^{2}S(\rho\|\sigma)=\tfrac{1}{4}F_{Q},
-\]
-and the linearized Einstein constraint,
-\[
-\delta^{2}S_{B}\propto
-\int_{B}\!\xi^{\mu}
-\big(E_{\mu\nu}-8\pi G\,T_{\mu\nu}\big)\xi^{\nu},
-\]
-share the same structural pattern: a curvature term balanced by an
-information–energy term. This parallel—first recognized in the
-modular–Hamiltonian approach of Casini, Huerta, and Myers, and later
-developed by Faulkner, Lewkowycz, and Maldacena—shows that the geometry
-of state space and the geometry of spacetime obey homologous variational
-laws.
+\section{Conclusions}
 
-\medskip
-Dimensionally, an effective coupling
-\[
-G^{-1}\sim\frac{\hbar}{c^{5}}
-(\text{fluctuation rate})^{2}
-(\text{entropy})
-(\text{correlation}),
-\]
-follows the same scaling as the triadic threshold derived earlier.
-In this view, spacetime curvature measures the
-\emph{persistent distinguishability} of local quantum configurations:
-a perfectly inert field (vanishing triad) corresponds to a flat
-informational geometry.
-\end{minipage}}
-\end{center}
+We have identified a primitive structural condition in quantum theory: the inseparable triad of fluctuations, entropy, and correlations defines the minimal requirement for subsystem viability. No physically realizable, locally coupled quantum system can maintain dynamical relevance while any leg of the triad vanishes on average. The triad thus constitutes the fundamental expression of quantum structural integrity—the capacity to persist, evolve, and mediate phenomena.
+
+From locality and dynamical non-stationarity we derived two complementary quantitative thresholds:
+\begin{itemize}
+    \item a \textbf{Hamiltonian-capped} inequality, governed by minimal local energy scales and subsystem dimensions,
+    \item a \textbf{speed-based} inequality, governed by Bures evolution rates and entropic/correlation floors.
+\end{itemize}
+Together, these bounds reveal that fluctuations, entropy, and correlations are structurally interdependent. Any persistent deficit in one component must be balanced by the others, while the simultaneous vanishing of all three marks structural inertness. This inseparability defines the threshold between inert mathematical possibility and physically participatory reality.
+
+Although the framework is expressed through subsystem observables—reduced fluctuations, local entropy, and mutual information—it is not reductionist. Subsystems function only as analytical constructs introduced to resolve structure within the total system. The triad theory is fundamentally systemic: it characterizes the integrity of the full quantum state, employing partitions as diagnostic tools rather than ontological divisions.
+
+Subsystems falling below the derived thresholds are structurally inert: incapable of storing information, mediating interactions, or sustaining distinguishable evolution. In contrast, persistent triadic activity guarantees the minimal conditions for quantum persistence. This exclusion principle applies to pure and mixed states, extends naturally to Lindbladian open systems through entropy production, and generalizes to algebraic QFT.
+
+Beyond foundational implications, the triad provides first-principles benchmarks for quantum technologies—criteria for qubit viability, memory stability, gate certification, and error-correction prioritization. It redefines quantum engineering in terms of structural necessity rather than empirical performance.
+
+
+Future work will extend the computational annexes, formalize experimental witness protocols, and explore the link between subsystem structure, modular dynamics, and emergent geometry. Through this lens, quantum viability is not an operational convention but a universal principle of physical structure.
 
 
 \section*{Acknowledgements} 
 
-This project began with a long-standing question: how does the principle \textit{natura abhorret vacuum}—the idea that physical reality never admits absolute emptiness—retain its validity from the microscopic to the cosmological scale?
+This project began long time ago, with a long-standing question: how does the principle \textit{natura abhorret vacuum}—the idea that physical reality never admits absolute emptiness—retain its validity from the microscopic to the cosmological scale?
 To explore that question I carried out a symbolic reduction of representative equations drawn from quantum, thermodynamic, relativistic, and cosmological theories.
 When all non-universal or model-specific quantities were removed, three elements remained invariant across those domains: energy fluctuations, entropy, and Planck’s constant.
 In pure states, entropy manifests as entanglement entropy, revealing the same structure in its quantum form.
