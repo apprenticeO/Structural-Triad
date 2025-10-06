@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: ESSE Conjecture (Private Research Export)
+message: If you use this work, please cite it as below.
+authors:
+  - name: Ovidiu Tataru
+    email: ovdttr@gmail.com
+    affiliation: Private Research Collaboration
+keywords:
+  - ESSE
+  - entanglement
+  - information theory
+  - Coq
+  - quantum many-body
+date-released: 2025-09-26
+license: Proprietary
+repository-code: https://github.com/apprenticeO/esse-conjecture
+version: 0.1.0-private 

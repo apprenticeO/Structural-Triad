@@ -1,0 +1,53 @@
+{
+  "L": 8,
+  "ell": 3,
+  "J": 1.0,
+  "h": 0.0,
+  "dt": 0.05,
+  "steps": 100,
+  "chi": 128,
+  "cut": 1e-09,
+  "hbar": 1.0,
+  "sample_k": 5,
+  "tau_max_samples": 20,
+  "eps": 1e-12,
+  "Pi_avg": 7.554477248910087,
+  "Pi_liminf_proxy": 7.554477248910087,
+  "frac_good_times_global": 0.0,
+  "perA": [
+    {
+      "A": 1,
+      "v0": 0.0,
+      "deltaA": 1.0,
+      "tauA4": null
+    },
+    {
+      "A": 2,
+      "v0": 1.0,
+      "deltaA": 0.0,
+      "tauA4": null
+    },
+    {
+      "A": 3,
+      "v0": 0.5,
+      "deltaA": 0.0,
+      "tauA4": 7.982883547321251
+    }
+  ],
+  "opnormA": [
+    0.0,
+    3.0,
+    4.0
+  ],
+  "predicate": {
+    "scale": "opnorm",
+    "alpha": 1.0,
+    "S_floor": 0.0,
+    "use_norm": false
+  },
+  "epsF": 1.3026925527755717,
+  "epsS": 1.7196591869297524,
+  "epsI": 3.4393153294885748,
+  "delta": 0.3333333333333333,
+  "rhs_speed": 1.2841183722241183
+}

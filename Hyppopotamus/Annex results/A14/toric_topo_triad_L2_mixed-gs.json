@@ -1,0 +1,21 @@
+{
+  "L": 2,
+  "N_qubits": 8,
+  "Je": 1.0,
+  "Jm": 1.0,
+  "state": "mixed-gs",
+  "degeneracy": 4,
+  "SA": 2.772588722239781,
+  "IAB": 4.158883083359541,
+  "Delta_x": 1.0,
+  "Delta_z": 1.0,
+  "Wx_expect": 0.0,
+  "Wz_expect": -1.734723475976807e-17,
+  "Pi_topo_x": 11.53087233403647,
+  "Pi_topo_z": 11.53087233403647,
+  "entropy_base": "nats",
+  "loop_defs": {
+    "Wz_x": "Z loop around x-direction (horizontal ring at y=0)",
+    "Wx_y": "X loop around y-direction (vertical ring at x=0)"
+  }
+}

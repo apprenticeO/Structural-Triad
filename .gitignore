@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# LaTeX artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+
+# Coq build artifacts
+*.vo
+*.vos
+*.vok
+*.glob
+*.cache
+.lia.cache
+.nra.cache
+
+# Logs and temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Compressed archives
+*.zip
+*.gz
+*.tar
+*.tar.gz
+
+# Results and plots inside Scripts Demonstration
+Hyppopotamus/Scripts Demonstration/results/
+Hyppopotamus/Scripts Demonstration/plots/
+
+# Build logs in rocq-project
+Hyppopotamus/rocq-project/build.log
+Hyppopotamus/rocq-project/coqchk.log
+
+# Bytecode caches under included directories
+Hyppopotamus/**/__pycache__/ 

@@ -1,0 +1,3 @@
+Case,<Pi_rate_avg>,<sum_ΔE_S_I_avg>,RHS_capped,RHS_speed
+Non-comm,1.157023,1.258119,0.078662,0.014996
+Comm,0.870314,2.503975,0.056951,0.000074

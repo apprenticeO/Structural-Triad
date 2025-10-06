@@ -1,0 +1,8 @@
+Metric,Value,Units
+<Pi>,49.7288541020575,rate
+Pi_liminf,49.7288541020575,rate
+epsF,4.688849245053105,rate
+epsS,2.809831642708447,nats
+epsI,5.619663059091979,nats
+delta,0.16666666666666666,dimensionless
+RHS_speed,6.169864121142021,energy

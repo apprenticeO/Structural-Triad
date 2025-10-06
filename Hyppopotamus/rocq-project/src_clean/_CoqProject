@@ -1,0 +1,26 @@
+-Q . ESSEClean
+
+Positivity.v
+PinskerClean.v
+PinskerSquaredClean.v
+EntropyClean.v
+PerBoundClean.v
+TimeAvgClean.v
+PiClean.v
+ESSEClean.v
+PurityClean.v
+FisherClean.v
+AveragingPerA.v
+ESSEUniversal.v
+ESSEUniversal_structure.v
+theory/SystemSpec.v
+theory/TriadSignals.v
+theory/Bridges.v
+theory/LegFloors.v
+theory/Normalization.v
+theory/SumLifting.v
+theory/HCap.v
+theory/SpeedBound.v
+open/Channels.v
+open/SpeedOpen.v
+tests/TriadExamples.v
