@@ -277,6 +277,14 @@ def run_perA(L: int, ell: int, J: float, h: float, dt: float, steps: int, chi: i
         # Remove all perC calculations - not in canonical LaTeX paper
         perA.append(PerARecord(A=A, v0=v0_list[A - 1], deltaA=deltaA, tauA4=tauA4))
 
+    # NOTE / ATTENTION (floors estimation):
+    # This script currently uses simplified/proxy sequences for floors
+    # (ε_F, ε_S, ε_I) and δ. For production-grade estimates:
+    #   - Accumulate full time-series of √F_Q, S_A, I(A:Ā)
+    #   - Define active epoch K* where all legs exceed small baselines
+    #   - Compute positive-support quantiles (e.g., q10 over K*) for ε_F, ε_S, ε_I
+    #   - Set δ as the fraction of times in K* (or use a rolling-window min)
+    # This stabilizes RHS_speed without changing the underlying theory.
     # CORRECTED: Add canonical LaTeX components (Eq. 331: Speed-based threshold)
     # Collect sequences for floor calculations
     sqrtF_seq = []

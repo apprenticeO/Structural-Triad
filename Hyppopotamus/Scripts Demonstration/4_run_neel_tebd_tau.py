@@ -261,6 +261,17 @@ def run_neel_tau(L: int, ell: int, J: float, h: float, dt: float, steps: int,
         tau_A4_liminf_proxy = float(np.min(rm_d4)) if rm_d4 else tau_A4_avg
 
     frac_good = 0.0
+    # NOTE / ATTENTION (floors estimation):
+    # The blocks below compute proxy floors for (ε_F, ε_S, ε_I) and δ using
+    # simplified series. This keeps runtime light but can over/under-estimate
+    # the speed-based RHS because RHS_speed ∝ δ·ε_F·ε_S·ε_I.
+    # Recommended for production runs:
+    #   1) Accumulate full time-series for √F_Q, S_A, and I(A:Ā).
+    #   2) Define the active epoch K* = {t : all three legs exceed small baselines}.
+    #   3) Compute positive-support quantiles (e.g., q10 over K*) for ε_F, ε_S, ε_I.
+    #   4) Set δ = fraction of times in K* (or a rolling-window min to guard transients).
+    # This avoids “no floor” pathologies when inactive frames dominate and stabilizes
+    # results without changing the theory.
     # Floors and RHS (speed-based)
     sqrtF_seq = [ (2.0/hbar)*math.sqrt(max(qfi_sld_unitary(_partial_trace_rho(np.outer(tebd.pt.to_dense(), tebd.pt.to_dense().conj()), L, A_sites), H_A_on_A), 0.0)) ] if frames else []
     # Use collected sequences for floors

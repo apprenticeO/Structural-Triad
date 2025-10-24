@@ -1,0 +1,30 @@
+{
+  "mode": "F",
+  "input_csv": "",
+  "theta": [
+    0.2,
+    0.4,
+    0.6,
+    0.8
+  ],
+  "T": 5000,
+  "seed": 12345,
+  "bootstrap": 500,
+  "confidence": 0.95,
+  "rho": [
+    0.0,
+    0.5,
+    0.9
+  ],
+  "lam": [
+    0.01,
+    0.1,
+    0.5
+  ],
+  "block_size": 200,
+  "plateau_var_th": 1e-09,
+  "cap_H_op": 1.0,
+  "dA": 8,
+  "dBar": 8,
+  "out_dir": "Hyppopotamus/Scripts Demonstration"
+}
