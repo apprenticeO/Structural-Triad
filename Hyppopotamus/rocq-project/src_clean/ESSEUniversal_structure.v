@@ -4,6 +4,10 @@
   - Depends on: TimeAvgClean.v (density-of-good-times and averaging lemmas)
   - Proof strategy: Discrete-time triad signals with good-time predicates
   - Nonnegativity-based proofs (no circularity), Witness/minima lemmas
+  - Note: This file does not assume ensemble/ergodic positivity (E[Π]>0).
+          In the manuscript, the Paley–Zygmund + Birkhoff route supplies
+          conditional positivity of time-averages when E[Π]>0; here we only
+          provide generic nonnegativity and averaging lemmas used upstream.
 *)
 
 (*

@@ -36,8 +36,8 @@ theory/Normalization.vo theory/Normalization.glob theory/Normalization.v.beautif
 theory/Normalization.vos theory/Normalization.vok theory/Normalization.required_vos: theory/Normalization.v theory/SystemSpec.vos /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
 theory/SumLifting.vo theory/SumLifting.glob theory/SumLifting.v.beautified theory/SumLifting.required_vo: theory/SumLifting.v /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
 theory/SumLifting.vos theory/SumLifting.vok theory/SumLifting.required_vos: theory/SumLifting.v /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
-theory/HCap.vo theory/HCap.glob theory/HCap.v.beautified theory/HCap.required_vo: theory/HCap.v theory/Bridges.vo theory/Normalization.vo theory/SystemSpec.vo /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
-theory/HCap.vos theory/HCap.vok theory/HCap.required_vos: theory/HCap.v theory/Bridges.vos theory/Normalization.vos theory/SystemSpec.vos /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
+theory/HCap.vo theory/HCap.glob theory/HCap.v.beautified theory/HCap.required_vo: theory/HCap.v theory/Normalization.vo theory/SystemSpec.vo /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
+theory/HCap.vos theory/HCap.vok theory/HCap.required_vos: theory/HCap.v theory/Normalization.vos theory/SystemSpec.vos /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
 theory/SpeedBound.vo theory/SpeedBound.glob theory/SpeedBound.v.beautified theory/SpeedBound.required_vo: theory/SpeedBound.v theory/SystemSpec.vo /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
 theory/SpeedBound.vos theory/SpeedBound.vok theory/SpeedBound.required_vos: theory/SpeedBound.v theory/SystemSpec.vos /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
 open/Channels.vo open/Channels.glob open/Channels.v.beautified open/Channels.required_vo: open/Channels.v /home/ovidiu/.opam/default/lib/rocq-runtime/rocqworker
