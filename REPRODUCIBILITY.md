@@ -4,6 +4,7 @@
 - Primary PDF: `Hyppopotamus/v3_A_Quantum_Structural_Triad__Fluctuations__Entropy__and_Correlations_as_Interdependent_Primitives_Tataru_.pdf`
 
 ## Coq (rocq-project)
+- Install the Rocq Prover and tooling per the official site: https://rocq-prover.org/
 - Build from repo root:
 ```
 make -C Hyppopotamus/rocq-project -f CoqMakefile -j"$(nproc)" | cat
@@ -28,6 +29,7 @@ coqchk -R Hyppopotamus/rocq-project/src_clean ESSEClean \
   ESSEClean.tests.TriadExamples
 ```
 - Note: `theory/HCap.v` is implemented and mechanically checked.
+ - Coverage: the speed‑based threshold is not formalized in the Rocq project; `theory/SpeedBound.v` is a placeholder.
 
 ## Python scripts (optional)
 - Location: `Hyppopotamus/Scripts Demonstration`

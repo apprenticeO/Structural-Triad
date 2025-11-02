@@ -96,3 +96,4 @@ Require Import ESSEClean.theory.SystemSpec ESSEClean.theory.Normalization.
 ## Notes
 - All recent changes add the modular triad files and tests; legacy interfaces remain unchanged.
 - `ESSEUniversal.v` provides the constructive ΔH·S^2 path; `ESSEUniversal_structure.v` provides the state‑agnostic triad/ON route. 
+ - Coverage note: The Hamiltonian‑capped route is implemented and checked (`theory/HCap.v`). The speed‑based route (Paley–Zygmund/Birkhoff) is not formalized; `theory/SpeedBound.v` is a placeholder.

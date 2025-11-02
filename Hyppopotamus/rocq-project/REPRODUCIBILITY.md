@@ -83,6 +83,10 @@ Require Import ESSEClean.theory.SystemSpec ESSEClean.theory.Normalization.
   - `open/Channels.v`, `open/SpeedOpen.v`: open‑system stubs
   - `tests/TriadExamples.v`: dummy instance and sanity checks
 
+## Coverage note
+- Implemented and checked: intensive normalization (`Normalization.v`), minima/averaging lifts (`SystemSpec.v`, `SumLifting.v`), and Hamiltonian‑capped inequality (`HCap.v`).
+- Not formalized here: speed‑based threshold relying on Paley–Zygmund and ergodic theorems; `SpeedBound.v` is a placeholder.
+
 ## Conventions
 - Log base: proofs in legacy part are parameterized by `c_lin` (paper sets nats with `c_lin = 1/2`).
 - Time-averaging: `δ_A` and related Cesàro lemmas appear in `TimeAvgClean.v` and are mirrored by `TriadSignals.v` usage.
