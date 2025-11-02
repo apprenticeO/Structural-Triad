@@ -17,12 +17,12 @@ Ensure `.gitignore` is present (excludes heavy results, build artifacts, caches,
 2. Stage and commit:
    ```
    git add README.md LICENSE .gitignore CITATION.cff CONTRIBUTING.md SECURITY.md docs/ EXPORT_GUIDE.md Hyppopotamus/rocq-project Hyppopotamus/Scripts\ Demonstration Hyppopotamus/LATEX
-   git commit -m "Initial private research export"
+   git commit -m "Initial Structural Triad private research export"
    ```
-3. Create a private repository on GitHub (via web UI) under `apprenticeO/esse-conjecture`.
+3. Create a private repository on GitHub (via web UI) under `apprenticeO/structural-triad` (or your chosen name).
 4. Add remote and push:
    ```
-   git remote add origin https://github.com/apprenticeO/esse-conjecture.git
+   git remote add origin https://github.com/apprenticeO/structural-triad.git
    git push -u origin main
    ```
 

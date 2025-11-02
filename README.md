@@ -1,10 +1,10 @@
-# ESSE Conjecture (Private Research Export)
+# A Quantum Structural Triad (Private Research Export)
 
-This repository is a private, shareable subset of the ESSE workspace prepared for collaborators. It includes three main components:
+This repository is a private, shareable subset of the Structural Triad workspace prepared for collaborators. It includes three main components:
 
 - `Hyppopotamus/rocq-project`: Coq sources and build system for the rock/rocq prover artifacts
-- `Hyppopotamus/Scripts Demonstration`: Python scripts demonstrating ESSE-related simulations and validations
-- `Hyppopotamus/LATEX`: Manuscripts and notes (some items pending review)
+- `Hyppopotamus/Scripts Demonstration`: Python scripts demonstrating structural triad simulations and validations
+- `Hyppopotamus`: Manuscript PDF and annex/results
 
 ## Status and intent
 - Private repository intended for research sharing.
@@ -25,14 +25,16 @@ This repository is a private, shareable subset of the ESSE workspace prepared fo
 - Navigate to `Hyppopotamus/rocq-project` and use `make` to build the project.
 - Build and check logs (`build.log`, `coqchk.log`) and Coq artifacts (`*.vo`, `*.glob`, caches) are ignored to keep the repository light.
 
-### LaTeX (Hyppopotamus/LATEX)
-- The LaTeX directory contains manuscripts and overviews.
-- Note: some `.tex` files are flagged for review. Please read with care.
+### Manuscript (Hyppopotamus/)
+- The manuscript is provided as a PDF.
+- Primary PDF: `Hyppopotamus/v3_A_Quantum_Structural_Triad__Fluctuations__Entropy__and_Correlations_as_Interdependent_Primitives_Tataru_.pdf`
+- Note: LaTeX sources are not included in this repository.
 
 ## Included directories
 - `Hyppopotamus/rocq-project`
 - `Hyppopotamus/Scripts Demonstration`
-- `Hyppopotamus/LATEX`
+- `Hyppopotamus/Annex results`
+- `Hyppopotamus` (manuscript PDF)
 
 ## Data and artifacts policy
 - Large artifacts (results, generated plots, build logs, caches) are excluded by design.
@@ -45,4 +47,4 @@ This repository is a private, shareable subset of the ESSE workspace prepared fo
 - Email: ovdttr@gmail.com
 
 ## License
-- All rights reserved. See `LICENSE` for terms. # Structural-Triad
+- All rights reserved. See `LICENSE` for terms.

@@ -1,6 +1,6 @@
-# ESSE Coq Development (rocq-project)
+# Structural Triad Coq Development (rocq-project)
 
-This repository formalizes the derivation in `Hyppopotamus/Scripts Demonstration/hyppo_esse_derivation.tex` and its modular, state‑agnostic triad variant.
+This repository accompanies the Structural Triad manuscript and its modular, state‑agnostic triad formalization. See `Hyppopotamus/v3_A_Quantum_Structural_Triad__Fluctuations__Entropy__and_Correlations_as_Interdependent_Primitives_Tataru_.pdf`.
 
 ## Mapping: LaTeX → Coq Modules
 
@@ -41,7 +41,7 @@ This repository formalizes the derivation in `Hyppopotamus/Scripts Demonstration
 - `theory/LegFloors.v`: floors from H1–H3 witnesses
 - `theory/Normalization.v`: intensive triad `Psi_hat`, proofs 0 ≤ Ψ̂ ≤ 1
 - `theory/SumLifting.v`: monotone product and averaging lifts
-- `theory/HCap.v`: Hamiltonian‑capped inequality (skeleton)
+- `theory/HCap.v`: Hamiltonian‑capped inequality (implemented; mechanically checked)
 - `theory/SpeedBound.v`: speed‑based inequality (skeleton)
 - `open/Channels.v`, `open/SpeedOpen.v`: open‑system stubs
 - `tests/TriadExamples.v`: dummy `Admissible`, toy streams, sanity lemmas

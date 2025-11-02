@@ -1,6 +1,6 @@
 # Reproducibility Note
 
-This artifact accompanies `Hyppopotamus/Scripts Demonstration/hyppo_esse_derivation.tex` and the modular triad formalization.
+This artifact accompanies `Hyppopotamus/v3_A_Quantum_Structural_Triad__Fluctuations__Entropy__and_Correlations_as_Interdependent_Primitives_Tataru_.pdf` and the modular triad formalization.
 
 ## Requirements
 - Coq / Rocq (project ships a generated `CoqMakefile`)
@@ -78,7 +78,7 @@ Require Import ESSEClean.theory.SystemSpec ESSEClean.theory.Normalization.
   - `theory/LegFloors.v`: floors from H1–H3 witnesses
   - `theory/Normalization.v`: intensive triad `Psi_hat` with 0 ≤ Ψ̂ ≤ 1
   - `theory/SumLifting.v`: monotone product and averaging lifts
-  - `theory/HCap.v`: Hamiltonian‑capped inequality (skeleton)
+  - `theory/HCap.v`: Hamiltonian‑capped inequality (implemented; mechanically checked)
   - `theory/SpeedBound.v`: speed‑based inequality (skeleton)
   - `open/Channels.v`, `open/SpeedOpen.v`: open‑system stubs
   - `tests/TriadExamples.v`: dummy instance and sanity checks
