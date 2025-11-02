@@ -1,6 +1,7 @@
 (*
   TimeAvgClean.v (legacy constructive averaging)
-  - Paper mapping: Sec. 5 (Operational Metrics and Averaging): δ_A density and sustained contributions.
+  Paper mapping: Structural Triad (PDF) — Technical Lemmas (density-to-time-average)
+  - Sec. 5 (Operational Metrics and Averaging): δ_A density and sustained contributions.
   - Role: generic Cesàro averaging pattern used in the ΔH·S^2 route; reused by triad variant.
   - Note: Provides density→average lower bounds under nonnegativity; does not
           encode Paley–Zygmund or ergodic mean positivity (those are handled

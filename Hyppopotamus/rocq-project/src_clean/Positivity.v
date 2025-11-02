@@ -1,6 +1,6 @@
 (*
   Positivity.v
-  Paper mapping (hyppo_esse_derivation.tex):
+  Paper mapping: Structural Triad (PDF) Sec. 6 (illustrative positivity scaffold)
   - [Constructive] Section 6: Illustrative positivity scaffold where per-term
     factors are manifestly positive (gap and entropy proxies), implying the
     scaled sum Π_lower > 0 for nonempty lists.

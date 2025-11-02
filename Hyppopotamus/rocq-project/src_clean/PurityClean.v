@@ -1,6 +1,6 @@
 (*
   PurityClean.v (legacy pure-state identity)
-  - Paper mapping: Sec. 1–2; used to assert I(A:Ā)=2 S_A for pure bipartitions.
+  Paper mapping: Structural Triad (PDF) Sec. 1–2; used to assert I(A:Ā)=2 S_A for pure bipartitions.
   - Role: provides the purity hook that turns correlation into entropy in the constructive ΔH·S^2 path.
   - Legacy note: only needed for the pure-state-based constructive route; triad variant is state-agnostic.
 *)

@@ -1,6 +1,6 @@
 (*/
   ESSEBoxed.v
-  Paper mapping (hyppo_esse_derivation.tex):
+  Paper mapping (Structural Triad, PDF):
   - [Activity]: π-baseline assembling ΔH_A and S_A via I=2S, √F ≤ 2ΔH (Sec. 3)
   - [Pinsker+Floor]+[PerA+Avg]: per_bound assumed upstream (Sec. 4–5)
   - [Constructive]: Π_sys ≥ C_sum (finite-sum floor) (Sec. 6, Eq. perC_total)

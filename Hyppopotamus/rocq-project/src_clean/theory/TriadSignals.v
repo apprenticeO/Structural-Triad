@@ -1,3 +1,14 @@
+(*
+  theory/TriadSignals.v
+  Paper mapping: Structural Triad (PDF)
+  - Section 2 (Quantum Structural Triad: Definition): discrete-time triad signals rA,sA,iA
+    and the per-cut good-epoch predicate.
+  - Technical Lemmas (density-to-time-average): used via TimeAvgClean to obtain
+    eventual lower bounds from positive-density good epochs.
+  - Role: Modular, system-agnostic shell for per-cut triad signals with leg-wise floors
+    (epsR0, epsS0, epsI0) and a density floor delta_cut, yielding an eventual average
+    lower bound for the product signal PsiA_triad on each admissible cut.
+*)
 From Coq Require Import Reals Lists.List Unicode.Utf8 Psatz.
 Import ListNotations. Open Scope R_scope.
 Require Import ESSEClean.TimeAvgClean.

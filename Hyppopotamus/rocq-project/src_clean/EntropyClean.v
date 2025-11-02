@@ -1,6 +1,6 @@
 (*
   EntropyClean.v
-  Paper mapping (hyppo_esse_derivation.tex):
+  Paper mapping (Structural Triad, PDF):
   - [Notation/System] Section 1: S_list is a simple entropy functional over lists of probabilities.
   - Utilities here support nonnegativity arguments used when relating entropy terms
     and trace norms (e.g., ensuring S_A ≥ 0 and handling ln behavior on [0,1]).

@@ -1,6 +1,6 @@
 (*
   GapFloorClean.v (legacy constructive building block)
-  - Paper mapping: Sec. 4.2 (variance floor via minimal gap)
+  Paper mapping: Structural Triad (PDF), Sec. 4.2 (variance floor via minimal gap)
   - Role: abstracts ΔH_A ≥ (1/4)·gap(A) used to define v0(A) in ΔH·S^2 route.
 *)
 From Coq Require Import Reals Unicode.Utf8 Psatz.

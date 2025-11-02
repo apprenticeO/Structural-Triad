@@ -1,6 +1,6 @@
 (*
   PinskerClean.v (legacy constructive building block)
-  - Paper mapping: Sec. 4.1 (Pinsker in nats) with pure-state I=2S.
+  Paper mapping: Structural Triad (PDF) Sec. 4.1 (Pinsker in nats) with pure-state I=2S.
   - Role: linear Pinsker hook used upstream; part of ΔH·S^2 route.
 *)
 From Coq Require Import Reals Lists.List Unicode.Utf8 Psatz.

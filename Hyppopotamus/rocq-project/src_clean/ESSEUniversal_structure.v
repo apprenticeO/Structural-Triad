@@ -1,9 +1,11 @@
 (*
   ESSEUniversal_structure.v
-  - Paper mapping: Elephant_final_full.tex "The Quantum Structural Triad"
+  Paper mapping: Structural Triad (PDF)
+  - Sections: §2 (Quantum Structural Triad: Definition), Technical Lemmas
+    (density-to-time-average), and systemic/per-subsystem averaging notes.
   - Depends on: TimeAvgClean.v (density-of-good-times and averaging lemmas)
-  - Proof strategy: Discrete-time triad signals with good-time predicates
-  - Nonnegativity-based proofs (no circularity), Witness/minima lemmas
+  - Proof strategy: Discrete-time triad signals with good-time predicates;
+    nonnegativity-based proofs (no circularity); witness/minima lemmas.
   - Note: This file does not assume ensemble/ergodic positivity (E[Π]>0).
           In the manuscript, the Paley–Zygmund + Birkhoff route supplies
           conditional positivity of time-averages when E[Π]>0; here we only
@@ -429,9 +431,9 @@ Hypothesis density_lower_eventual : forall a, exists N0:nat, forall n:nat, (n >=
   INR (ESSEClean.TimeAvgClean.count_good (fun k => goodA a k) n) >= (deltaA a) * INR n.
 
 Definition PsiA_triad (a:A) (n:nat) : R := rA a n * (sA a n * iA a n).
-(* Paper Section 2: Definition of quantum structural triad
-   - PsiA_triad a n = rA a n * (sA a n * iA a n)
-   - Discrete-time version of Π_A(t) = √F_Q(ρ_A;H_A) · S_A · I(A:Ā) *)
+(* Paper Section 2 (Definition), Eq. (1) eq:triad:
+   PsiA_triad a n = rA a n * (sA a n * iA a n)
+   Discrete-time version of Π_A(t) = √F_Q(ρ_A;H_A) · S_A · I(A:Ā) *)
 
 Lemma psi_triad_lower_on_good : forall a n, goodA a n = true ->
   PsiA_triad a n >= (epsR a) * (epsS a * epsI a).
@@ -471,6 +473,8 @@ Lemma triad_avg_eventual_lower_perA : forall a,
     ESSEClean.TimeAvgClean.avg (fun k => PsiA_triad a k) n >= (deltaA a) * ((epsR a) * (epsS a * epsI a)).
 Proof.
   intro a.
+  (* Paper Technical Lemmas: density-to-time-average (Lemma), applied to the triad signal
+     with per-leg floors on a positive-density good-epoch set. *)
   set (x := fun k => PsiA_triad a k).
   set (g := fun k => goodA a k).
   set (c := (epsR a) * (epsS a * epsI a)).

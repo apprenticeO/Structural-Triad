@@ -1,3 +1,10 @@
+(*
+  theory/Normalization.v
+  Paper mapping: Structural Triad (PDF)
+  - Section “Normalized Intensive Triad”: definition of Ψ̂ (Psi_hat) with bounds 0 ≤ Ψ̂ ≤ 1.
+  - Role: provide the dimensionless, scale-free normalization used by the
+    Hamiltonian‑capped threshold and systemic analysis.
+*)
 From Coq Require Import Reals Lists.List Psatz.
 Require Import ESSEClean.theory.SystemSpec.
 Require Import Coquelicot.Rcomplements.

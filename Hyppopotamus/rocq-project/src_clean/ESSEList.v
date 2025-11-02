@@ -1,6 +1,6 @@
 (*
   ESSEList.v
-  Paper mapping (hyppo_esse_derivation.tex):
+  Paper mapping (Structural Triad, PDF):
   - [Constructive] Section 6: Lift the per-subsystem bound ΔH·S^2 ≥ v0·c_lin^2·δ_A·τ_A^4
     to sums over A, and scale by (4/ħ) to obtain Π_sys ≥ C_sum (finite-sum floor).
   - This module provides the sum-lift and scaling, reused by ESSEUniversal and ESSEBoxed.

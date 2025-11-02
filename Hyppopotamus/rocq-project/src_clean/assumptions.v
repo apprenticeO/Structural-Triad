@@ -1,3 +1,9 @@
+(*
+  Assumptions printer (Structural Triad, PDF mapping)
+  - Manuscript: v3_A_Quantum_Structural_Triad__Fluctuations__Entropy__and_Correlations_as_Interdependent_Primitives_Tataru_.pdf
+  - Purpose: print logical assumptions behind the boxed finite-sum, positivity,
+    and averaged constructive results, for traceability to the paper sections.
+*)
 From ESSEClean Require Import ESSEBoxed ESSEList PerBoundClean PinskerClean PinskerSquaredClean GapFloorClean AveragingPerA PiClean Positivity PurityClean FisherClean EntropyClean TimeAvgClean.
 
 (* Print assumptions for boxed finite-sum and positivity statements *)

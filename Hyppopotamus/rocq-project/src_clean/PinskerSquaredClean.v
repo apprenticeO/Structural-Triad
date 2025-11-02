@@ -1,6 +1,6 @@
 (*
   PinskerSquaredClean.v (legacy constructive building block)
-  - Paper mapping: Sec. 4.1 (square-and-align step under nats; I=2S used upstream).
+  Paper mapping: Structural Triad (PDF) Sec. 4.1 (square-and-align step under nats; I=2S used upstream).
   - Role: packages S_A^2 ≥ (c_lin^2) · ||·||_1^4 for ΔH·S^2 route.
 *)
 From Coq Require Import Reals Unicode.Utf8 Psatz.

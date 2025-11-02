@@ -1,6 +1,6 @@
 (*
   PiClean.v
-  Paper mapping (hyppo_esse_derivation.tex):
+  Paper mapping (Structural Triad, PDF):
   - [Activity] Section 3: Π_sys(t) = (4/ħ) Σ_A ΔH_A(t) · S_A(t)^2 (π-baseline via I=2S and √F ≤ 2ΔH).
   - This module packages positivity claims for Π_sys given ΔH_A>0 and S_A>0.
 

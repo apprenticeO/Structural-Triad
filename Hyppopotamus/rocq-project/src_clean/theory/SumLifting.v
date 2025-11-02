@@ -1,3 +1,10 @@
+(*
+  theory/SumLifting.v
+  Paper mapping: Structural Triad (PDF)
+  - Role: General monotone product lift used throughout (triple-product monotonicity).
+  - Appears in constructive/universal chains and in Hamiltonian‑capped steps when
+    replacing factors by smaller ones under nonnegativity (technical helper lemma).
+*)
 From Stdlib Require Import Reals Lists.List.
 Import ListNotations. Open Scope R_scope.
 

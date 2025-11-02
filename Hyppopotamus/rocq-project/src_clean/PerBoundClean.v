@@ -1,6 +1,6 @@
 (*
   PerBoundClean.v (legacy constructive building block)
-  - Paper mapping: Sec. 4–6; packages per‑A bounds used to assemble Π_sys ≥ C_sum.
+  Paper mapping: Structural Triad (PDF) Sec. 4–6; packages per‑A bounds used to assemble Π_sys ≥ C_sum.
   - Role: collects per‑subsystem inequalities (ΔH, Pinsker, floors) for the ΔH·S^2 route.
   - Legacy note: kept for constructive path; modular triad uses theory/ modules instead.
 *)

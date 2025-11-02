@@ -1,3 +1,15 @@
+(*
+  theory/SystemSpec.v
+  Paper mapping: Structural Triad (PDF)
+  - Role: System interface for admissible cut-sets and hardware scales used by
+    normalization and Hamiltonian-capped results.
+  - Sections:
+    * Normalized Intensive Triad (§ Intensive Formulation): uses dA, dmin, opnorm_HA.
+    * Hamiltonian‑Capped Structural Threshold (Thm. HCap): "replace by minima" and
+      cut‑set averaging appear here as helpers (E_card, ln monotonicity, opnorm minima).
+  - Provides: records CutSpec and Admissible; average over cuts; log/opnorm monotonicity
+    lemmas; and small utilities for minima replacement.
+*)
 From Coq Require Import Reals Lists.List Lia Ranalysis1 Rfunctions Arith.PeanoNat Arith.
 
 From Coq Require Import micromega.Lra.

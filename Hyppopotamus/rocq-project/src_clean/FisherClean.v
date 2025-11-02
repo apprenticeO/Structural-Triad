@@ -1,6 +1,6 @@
 (*
   FisherClean.v
-  Paper mapping (hyppo_esse_derivation.tex):
+  Paper mapping (Structural Triad, PDF):
   - [Activity] Section 3: For time-independent local generators, the quantum Fisher
     information satisfies F = 4 (ΔH)^2, which yields √F ≤ 2 ΔH used in the π-baseline.
   - This module records the identity (as an axiomatically provided equality) and

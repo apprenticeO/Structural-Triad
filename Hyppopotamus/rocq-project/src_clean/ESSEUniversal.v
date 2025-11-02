@@ -1,6 +1,6 @@
 (*
   ESSEUniversal.v (legacy constructive ΔH·S^2 route)
-  - Paper mapping: Sec. 3–6 (Activity, Pinsker, Variance floor, Averaging, Constructive & Universal floors)
+  Paper mapping: Structural Triad (PDF) Sec. 3–6 (Activity, Pinsker, Variance floor, Averaging, Constructive & Universal floors)
   - Role: builds Π_sys ≥ C_sum via ΔH_A · S_A^2 with Pinsker and minima witnesses.
   - State dependence: relies on pure-state identity I=2 S_A upstream (see PurityClean.v) and √F ≤ 2ΔH.
   - Legacy note: kept for the constructive path; the state-agnostic triad lives in ESSEUniversal_structure.v and theory/ modules.

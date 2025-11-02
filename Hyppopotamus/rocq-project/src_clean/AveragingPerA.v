@@ -1,6 +1,6 @@
 (*
   AveragingPerA.v (legacy constructive averaging)
-  - Paper mapping: Sec. 5 (Operational Metrics and Averaging): δ_A and τ_A^4 schema.
+  Paper mapping: Structural Triad (PDF) Sec. 5 (Operational Metrics and Averaging): δ_A and τ_A^4 schema.
   - Role: converts pointwise lower bounds at good indices into Cesàro average floors.
 *)
 From Coq Require Import Reals Arith Psatz Lia.

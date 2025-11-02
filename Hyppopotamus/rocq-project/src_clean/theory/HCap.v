@@ -1,3 +1,20 @@
+(*
+  theory/HCap.v
+  Paper mapping: Structural Triad (PDF)
+  - Theorem: Hamiltonian‑Capped Structural Threshold (HCap)
+    Uses normalization (Ψ̂), minima replacement (‖H‖_min, ln d_min), and a monotone lift to
+    obtain an averaged inequality with hardware‑capped scales.
+  - This file organizes the proof into numbered steps:
+    1) Nonnegativity of the energy triad factor
+    2) Log/opnorm positivity helpers (from SystemSpec)
+    3) Nonnegativity of normalized division factors
+    4) Averaging over cuts (monotone lift)
+    5) Replace‑by‑minima product helper (ln, opnorm)
+    6) Psi_hat scaling identity and regroupings
+    7) Pointwise monotone lift
+    8) Averaged pointwise lift over cuts
+    9) Final averaged inequality with minima replacement
+*)
 From Coq Require Import Reals Psatz Lists.List.
 Require Import Coq.setoid_ring.Ring.
 From Stdlib Require Import Field.
