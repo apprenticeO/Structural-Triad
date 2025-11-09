@@ -1,4 +1,5 @@
-# A Quantum Structural Triad (Private Research Export)
+#A Quantum Structural Triad: Fluctuations, Entropy, and Correlations as Interdependent Primitives
+https://ijqf.org/wp-content/uploads/2025/11/IJQF2025v11n4p20r.pdf 
 
 This repository is a private, shareable subset of the Structural Triad workspace prepared for collaborators. It includes three main components:
 
