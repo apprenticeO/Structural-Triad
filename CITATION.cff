@@ -1,15 +1,38 @@
 cff-version: 1.2.0
 title: "A Quantum Structural Triad: Fluctuations, Entropy, and Correlations as Interdependent Primitives"
-message: If you use this work, please cite it as below:
-Tataru, O. (2025). A Quantum Structural Triad: Fluctuations, Entropy, and Correlations as Interdependent Primitives. 
-In International Journal of Quantum Foundations (Vol. 11, Numéro 4, p. 800‑852). 
-Zenodo. https://doi.org/10.5281/zenodo.17565870
-
-affiliation: Independent Researcher
-keywords:
-structural thresholds; quantum Fisher information; ergodic coupling;
-quantum structure; energy-entropy-entanglement interdependence; 
+message: >
+  If you use this work, please cite it using the preferred citation below.
+type: software
+authors:
+  - family-names: Tataru
+    given-names: Ovidiu
+    affiliation: Independent Researcher
+repository-code: "https://github.com/apprenticeO/Structural-Triad/tree/main"
+version: "0.1.0-private"
 date-released: 2025-09-26
-license: Proprietary
-repository-code: https://github.com/apprenticeO/Structural-Triad/tree/main
-version: 0.1.0-private 
+license: CC-BY-NC-SA-4.0
+keywords:
+  - quantum structural triad
+  - quantum Fisher information
+  - von Neumann entropy
+  - mutual information
+  - entanglement
+  - quantum correlations
+  - quantum speed limits
+  - ergodic dynamics
+  - structural thresholds
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Tataru
+      given-names: Ovidiu
+      affiliation: Independent Researcher
+  title: "A Quantum Structural Triad: Fluctuations, Entropy, and Correlations as Interdependent Primitives"
+  journal: International Journal of Quantum Foundations
+  volume: "11"
+  issue: "4"
+  year: 2025
+  start: "800"
+  end: "852"
+  doi: "10.5281/zenodo.17565870"
+  url: "https://ijqf.org/wp-content/uploads/2025/11/IJQF2025v11n4p20r.pdf"
